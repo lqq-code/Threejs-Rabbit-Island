@@ -15,7 +15,6 @@ Click to view: [Example](https://threejs.org/examples/#webgl_loader_gltf)
 		loader.load(
 			Rabbit1, 
 			function (gltf) {
-				console.log('兔子1', gltf);
 				gltf.scene.scale.set(10, 10, 10);
 				gltf.scene.position.set(10, 7, -125);
 				gltf.scene.rotation.y = - 4;
